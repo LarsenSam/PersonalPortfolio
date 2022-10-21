@@ -1,0 +1,121 @@
+*{
+    font-family: raleway,sans-serif;
+}
+
+nav{
+    padding-left: 1%;
+    color: white
+    colo
+    background-color: #242424;
+}
+header{
+    padding: 1%;
+    float: center;
+}
+
+
+
+.aboutme{
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 500px  400px;
+    grid-template-rows: 50px 100px  400px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+    p{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #photo{
+        grid-column: 1;
+        width: 300px;
+        border-radius: 16px;
+        margin: auto;
+    
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        grid-column: 2;
+    
+    }
+        .link1{
+            flex: 1;
+            float:inline-end;
+            width: 350px;
+            height: 75px;
+            margin: auto;
+            background-image: url("img/LinkedIn_Logo_black.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: 0.3s;
+            }
+    
+        
+        
+        .link1:hover{
+            width: 360px;
+            background-image: url("img/LinkedIn_Logo_blue.png");
+        }
+        .link2{
+            flex: 2;
+            width: 350px;
+            height: 75px;
+            margin: auto;
+            background-image: url("img/GitHub_Logo_black.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: 0.3s;
+        }
+        .link2:hover{
+            width: 360px;
+            background-image: url("img/GitHub_Logo_blue.png");
+        }
+        p{
+            height: 5px;
+        }
+
+.projects{
+    padding: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+    ._proj{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 1fr 10fr;
+
+    }
+        #gitLink{
+            grid-row: 1;
+            margin: auto;
+
+        }
+        #gitPic{
+            width: 300px;
+            margin: auto;
+            transition: 0.3s;
+        }
+        #gitPic:hover{
+            width: 320px;
+        }
+
+.footer {
+    background-color: #242424;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+    .footer p {
+        background-color: #242424;
+        height: 20px;
+
+
+    }
