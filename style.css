@@ -8,8 +8,6 @@ header{
     float: center;
 }
 
-
-
 .aboutme{
     display: grid;
     grid-template-columns: 500px  400px;
@@ -112,3 +110,13 @@ header{
 
 
     }
+.projects{}
+
+.project{
+    margin: auto;
+    width: 70%;
+}
+
+.project video{
+    width: 100%;
+}
